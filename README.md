@@ -5,7 +5,6 @@ Each record reflects a patient diagnosed with diabetes, including details about 
 
 Inadequate diabetes management not only escalates hospital operational costs due to frequent readmissions but also worsens patient outcomes by increasing the risk of diabetes-related complications, morbidity, and mortality.
 
----
 
 ## 🎯 Business Objective
 
@@ -17,3 +16,17 @@ This gap in diabetes care leads to costly hospital readmissions and puts patient
 
 By analyzing historical patient data, we aim to build predictive models that can flag individuals at high risk of readmission — supporting proactive care planning and ultimately improving both health outcomes and hospital resource efficiency.
 
+## 🤖 Model Development and Evaluation
+
+In this project, several machine learning models were developed and evaluated — including:
+
+- **XGBoost**
+- **LightGBM**
+- **Random Forest**
+- **Ensemble Model** (combining XGBoost and Random Forest)
+
+Each model was implemented in two configurations:
+- **Default** settings
+- **Tuned** using hyperparameter optimization
+
+Model performance was assessed using metrics such as **Accuracy**, **Precision**, **Recall**, **F1-score**, and **AUC**, along with **ROC curves** for visual comparison.
