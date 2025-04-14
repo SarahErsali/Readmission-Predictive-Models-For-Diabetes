@@ -42,11 +42,14 @@ This demonstrates a high degree of predictive accuracy, especially in models usi
 
 ## 🚀 Final Product & Dashboard
 
-The final prototype product is delivered as an interactive **Dash/Plotly web dashboard**.
+The final product is an **interactive Dash/Plotly dashboard** designed to deliver insights to both technical and non-technical stakeholders.
 
-This dashboard includes:
-- A single tab interface showcasing key metrics and charts.
-- Visualizations of each model’s performance using ROC curves and grouped bar charts for KPIs.
-- A prediction output table showing how each selected model predicts readmission for five example patients.
+### Dashboard Highlights:
 
-Users can select and compare one or more models interactively, making the dashboard a valuable tool for data exploration, validation, and presentation to stakeholders.
+- 📌 **Single-tab interface** for clean, user-friendly exploration.
+- 📈 **Visual performance comparison** across models using:
+  - ROC curves
+  - KPI bar charts
+- 🧠 **Prediction output table** showcasing how each selected model predicts the readmission outcome for five patient records.
+- 🧩 **Interactive model selection** — view one or multiple models at a time to compare outcomes side-by-side.
+
