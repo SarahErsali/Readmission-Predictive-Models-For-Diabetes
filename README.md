@@ -1,6 +1,6 @@
 ## 📊 Introduction
 
-The dataset spans a decade (1999–2008) of clinical care across 130 U.S. hospitals and integrated delivery networks.  
+The dataset spans a decade (1999–2008) of clinical care across 130 U.S. hospitals and integrated delivery networks (obtained from Machine Learning Repository website).  
 Each record reflects a patient diagnosed with diabetes, including details about their hospital stay (up to 14 days), lab tests, and medications.
 
 Inadequate diabetes management not only escalates hospital operational costs due to frequent readmissions but also worsens patient outcomes by increasing the risk of diabetes-related complications, morbidity, and mortality.
@@ -30,3 +30,11 @@ Each model was implemented in two configurations:
 - **Tuned** using hyperparameter optimization
 
 Model performance was assessed using metrics such as **Accuracy**, **Precision**, **Recall**, **F1-score**, and **AUC**, along with **ROC curves** for visual comparison.
+
+To further evaluate model reliability, test data from **five real patients** was used to assess how accurately each model predicts hospital readmission:
+
+- **XGBoost**, **Random Forest**, and the **Ensemble model** each correctly predicted readmission status for all five patients (100% accuracy).
+- **LightGBM** correctly predicted four out of five patient outcomes.
+
+This demonstrates a high degree of predictive accuracy, especially in models using ensemble and tree-based strategies.
+
