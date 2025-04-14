@@ -38,3 +38,13 @@ To further evaluate model reliability, test data from **five real patients** was
 
 This demonstrates a high degree of predictive accuracy, especially in models using ensemble and tree-based strategies.
 
+## 🚀 Final Product & Dashboard
+
+The final prototype product is delivered as an interactive **Dash/Plotly web dashboard**.
+
+This dashboard includes:
+- A single tab interface showcasing key metrics and charts.
+- Visualizations of each model’s performance using ROC curves and grouped bar charts for KPIs.
+- A prediction output table showing how each selected model predicts readmission for five example patients.
+
+Users can select and compare one or more models interactively, making the dashboard a valuable tool for data exploration, validation, and presentation to stakeholders.
